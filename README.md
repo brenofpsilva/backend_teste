@@ -13,5 +13,19 @@
 
 ## EndPoint
 
-### User
-- `url_app/api/register POST`
+### Usuários
+- `Adicionar POST url_app/api/register`
+- `Login POST url_app/api/login`
+
+### Prestadores
+- `Adicionar POST url_app/api/providers`
+- `Editar PUT url_app/api/providers/{id}`
+- `Listar GET url_app/api/providers`
+- `Exibir GET url_app/api/providers/{id}`
+
+### Serviços
+- `Adicionar POST url_app/api/services`
+- `Editar PUT url_app/api/services/{id}`
+- `Listar GET url_app/api/services`
+- `Exibir GET url_app/api/services/{id}`
+- `Importar POST url_app/api/service-import`
