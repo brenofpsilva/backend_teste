@@ -15,6 +15,7 @@
 
 ### Usuários
 - `Adicionar POST url_app/api/register`
+   Inputs: `name`,`email`,`username`,`password`,`password_confirmation`
 - `Login POST url_app/api/login`
 
 ### Prestadores
