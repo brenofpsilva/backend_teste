@@ -15,18 +15,26 @@
 
 ### Usuários
 - `Adicionar POST url_app/api/register`
-   Inputs: `name`,`email`,`username`,`password`,`password_confirmation`
+   Inputs: `name, email, username, password , password_confirmation`
 - `Login POST url_app/api/login`
-
-### Prestadores
-- `Adicionar POST url_app/api/providers`
-- `Editar PUT url_app/api/providers/{id}`
-- `Listar GET url_app/api/providers`
-- `Exibir GET url_app/api/providers/{id}`
+    Inputs: `username, password`
 
 ### Serviços
 - `Adicionar POST url_app/api/services`
+   Inputs: `name, description, price`
 - `Editar PUT url_app/api/services/{id}`
+   Inputs: `name, description, price`
 - `Listar GET url_app/api/services`
 - `Exibir GET url_app/api/services/{id}`
 - `Importar POST url_app/api/service-import`
+   Inputs: `file`  
+
+### Prestadores
+- `Adicionar POST url_app/api/providers`
+   Inputs: `name, phone, email, services[]`
+- `Editar PUT url_app/api/providers/{id}`
+   Inputs: `name, phone, email, services[]`
+- `Listar GET url_app/api/providers`
+- `Exibir GET url_app/api/providers/{id}`
+
+
